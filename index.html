@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moyano Propiedades</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
    
 
@@ -17,7 +18,7 @@
         </div>
 
         <nav>
-            <ul>
+            <ul class="list-unstyled">
                 <li> <a href="#"> INICIO </a>  </li>
                 <li> <a href="./pages/inmuebles.html"> INMUEBLES </a>  </li>
                 <li> <a href="./pages/emprendimientos.html"> EMPRENDIMIENTOS </a>  </li>
@@ -35,7 +36,7 @@
     <main>
         <section class="sectionPrincipal" >
             
-            <h1> DONDE LOS SUEÑOS ENCUENTRAN LUGAR </h1>
+            <h1 class="encabezado"> DONDE LOS SUEÑOS ENCUENTRAN LUGAR </h1>
 
             <form action="">
 
@@ -65,32 +66,38 @@
 
         </section>
 
-        <section class="sectionSec">
-            <h1> Propiedades en Venta Destacadas</h1>
-            <div>
+        <section class="container-fluid bg-black text-white border-bottom">
+            <h1 class="text-warning d-flex justify-content-center pt-5"> Propiedades en Venta Destacadas</h1>
+            <div class="container-fluid row p-5">
+                <article class=" container col-xl-12 col-xxl-6 d-flex justify-content-center">
                 <img src="./assets/img/casa-main2.jpg" alt="">
-                <article>
-                    <h2>Altos de Manantiales</h2>
-                    <h4>Casa moderna ubicada en barrio exclusivo Altos manantiales conocido por tener las mejores vistas de Córdoba.</h4>
-                    <h4>650 m2</h4>
-                    <h4>U$S 270.000</h4>
+                </article>
+                <article class="container col-xl-12 col-xxl-6 d-flex flex-column justify-content-center border-top border-bottom border-warning w-90">
+                    <h2 class="text-warning text-center">Altos de Manantiales</h2>
+                    <p>Casa moderna ubicada en barrio exclusivo Altos manantiales conocido por tener las mejores vistas de Córdoba.</p>
+                    <p>650 m2</p>
+                    <p>U$S 270.000</p>
                     
                 </article>
 
             </div>
 
-            <div>
+            <div class="container-fluid row p-5" >
+                <article class=" container col-xxl-6 d-flex justify-content-center">
                 <img src="./assets/img/casa-main4.jpg" alt="">
-                <article>  
-                    <h2>Country del Jockey</h2>
-                    <h4>Casa moderna ubicada en uno de los mejores barrios privados de Cordoba. Este country cuenta con jardín central, cuenta con un campo de golf de 53 hectáreas, la cancha con 18 hoyos par 72,de gran valor paisajistico, ha sido diseñada por el especialista Emilio Serra.</h4>
-                    <h4>800 m2</h4>
-                    <h4>U$S 350.000</h4>
+                </article>
+                <article class="container col-xxl-6 d-flex flex-column justify-content-center border-top border-bottom border-warning">  
+                    <h2 class="text-warning text-center">Country del Jockey</h2>
+                    <p>Casa moderna ubicada en uno de los mejores barrios privados de Cordoba. Este country cuenta con jardín central, cuenta con un campo de golf de 53 hectáreas, la cancha con 18 hoyos par 72,de gran valor paisajistico, ha sido diseñada por el especialista Emilio Serra.</p>
+                    <p>800 m2</p>
+                    <p>U$S 350.000</p>
                 
                 </article>  
             </div>
             <br><br>
-            <button><a href="./pages/inmuebles.html">VER MÁS</a></button>
+            <div class="d-flex justify-content-center">
+            <button class="m-5"><a class="btn bg-black btn-outline-warning" href="./pages/inmuebles.html">VER MÁS</a></button>
+            </div>
         </section>
         
         
@@ -98,7 +105,6 @@
 
     </main>
 
-    <hr>
 
     <footer>
         <section>
@@ -130,6 +136,7 @@
 
 
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>
