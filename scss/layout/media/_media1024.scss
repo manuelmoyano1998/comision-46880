@@ -1,0 +1,27 @@
+@media (max-width: 1024px){
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Nosotros */
+    .containerNos{
+        display: flex;
+        flex-direction: column;
+    }   
+    .nos{
+        width: 80%;
+    } 
+    .nos1{
+        width: 100%;
+    }
+    .nos2{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+}

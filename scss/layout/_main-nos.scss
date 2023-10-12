@@ -1,0 +1,57 @@
+.containerNos{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    padding: 6.25rem;
+}
+
+.nos{
+    width: 50%;
+
+    color: $color-principal;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nos1{
+    div{
+        border-top: 1px solid rgb(246, 166, 38);
+        border-bottom: 1px solid rgb(246, 166, 38) ;
+    
+        padding: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        h2{
+            color: rgb(246, 166, 38);
+            text-align: center;
+            padding: 20px;
+        }
+    }
+}
+
+.nos2{
+     img{
+        height: 300px;
+        width: 60%;
+        padding: 50px;
+    }
+}
+
+.mision{
+    background-color: rgb(246, 166, 38);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 80%;
+        padding: 3.125rem;
+    }
+}

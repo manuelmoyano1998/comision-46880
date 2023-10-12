@@ -1,0 +1,39 @@
+@media (max-width: 426px){
+    .grids {
+        height: 5000px;
+        background-color: black;
+        display: grid;
+        width: 100%;
+        height: 3000px;
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(12, 220px);
+
+    }
+    .grids section div img{
+        height: 9.375rem;
+        width: 100%;
+    }
+    .section1{
+        grid-row: 1/4;
+        grid-column: 1/2;
+    }
+
+    /* Emprendimientos */
+
+    .empHeader h1{
+        font-size:x-large;
+    }
+    .emp div img{
+        height: 15rem;
+    }
+
+    /* Nosotros */
+    .nos2 img{
+        height: 12.5rem;
+    }
+    /* Footer */
+    footer section{
+        h1{font-size: smaller;}
+        h3{font-size: smaller;}
+    }
+}
