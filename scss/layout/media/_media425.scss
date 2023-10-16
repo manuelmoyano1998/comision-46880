@@ -1,12 +1,7 @@
 @media (max-width: 426px){
     .grids {
-        height: 5000px;
-        background-color: black;
-        display: grid;
-        width: 100%;
-        height: 3000px;
         grid-template-columns: 1fr ;
-        grid-template-rows: repeat(12, 220px);
+        grid-template-rows: repeat(12, 12.5rem);
 
     }
     .grids section div img{
@@ -14,7 +9,7 @@
         width: 100%;
     }
     .section1{
-        grid-row: 1/4;
+        grid-row: 1/5;
         grid-column: 1/2;
     }
 

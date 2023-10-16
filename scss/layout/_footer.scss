@@ -10,7 +10,7 @@ footer{
         div{
             display: flex;
             img{
-                height: 50px;
+                height: map-get($tamaños, xl );
                 margin-right: 5px;
             }
         }

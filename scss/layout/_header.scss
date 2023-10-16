@@ -1,13 +1,12 @@
 header{
-    display: flex;
     background-color: black;
-    justify-content: space-between;
-    align-items: center;
+    @include flex(row, space-between, none);
     .imgLogo{
         display: flex;
         align-items: center;
         h2{
             color: antiquewhite;
+            font-family: Arial, Helvetica, sans-serif;
         }
         img{
             height: 5rem;
@@ -17,13 +16,22 @@ header{
         ul{
             display: flex;
             padding: 10px;
-            a{
+            li{
                 list-style: none;
-                color: antiquewhite;
-                padding: 20px;
-                font-family: Arial, Helvetica, sans-serif;
-                text-decoration: none;
-                font-size: 15px;
+                &:hover{
+                    transform: scale(1.1);
+                }
+                a{
+                    color: antiquewhite;
+                    padding: 20px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-decoration: none;
+                    font-size: 15px;
+                    transition: color 2s;
+                    &:hover{
+                        color: $bg-color-sec;
+                    }
+                }
             }
         }
     }

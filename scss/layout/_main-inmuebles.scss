@@ -1,18 +1,21 @@
 .grids {
-    display: grid;
+    @include grid(1fr 1fr 1fr, 11.875rem 400px 400px 400px, 1.875rem, 1.875rem );
     width: 100%;
     height: 1500px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 11.875rem 400px 400px 400px;
-    row-gap: 30px;
-    column-gap: 30px;
     background-color: $bg-principal;
     img{
         width: 100%;
         height: 18.75rem;
+        &:hover{
+            transform: scale(1.04)
+        }
     }
     h3{
         color: $bg-color-sec;
+        transition: text-decoration 3s;
+        &:hover{
+            text-decoration:underline;
+        }
     }
 }
 
@@ -65,41 +68,33 @@
     }
     
     .section3{
-        text-align: center;
-        color: antiquewhite;
+        @extend .section2;
     }
     
     .section4{
-        text-align: center;
-        color: antiquewhite;
+        @extend .section2;
     }
     
     .section5{
-        text-align: center;
-        color: antiquewhite;
+        @extend .section2;
     }
     
     .section6{
-        text-align: center;
-        color: antiquewhite;
+        @extend .section2;
     }
     
     .section7{
-        text-align: center;
-        color: antiquewhite;
+        @extend .section2;
     }
     
     .section8{
-        text-align: center;
-        color: antiquewhite;
+        @extend .section2;
     }
     
     .section9{
-        text-align: center;
-        color: antiquewhite;
+        @extend .section2;
     }
     
     .section10{
-        text-align: center;
-        color: antiquewhite;
+        @extend .section2;
     }

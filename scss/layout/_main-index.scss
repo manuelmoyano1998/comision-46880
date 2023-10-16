@@ -3,15 +3,12 @@
     height: 41.875rem;
     background-image: url("../assets/img/casaInicio2.jpg");
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    @include flex(column, space-between, none);
 
     h1{
         padding: 20px;
 
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Lora', serif;
         color: white;
     
         text-shadow: rgb(0, 0, 0) 1px 0 10px;
