@@ -6,6 +6,10 @@
         justify-content: center;
     }
 
+    .sectionSec div{
+        @include flex(column, center, 3.125rem );
+    }
+
     /* Nosotros */
     .containerNos{
         display: flex;

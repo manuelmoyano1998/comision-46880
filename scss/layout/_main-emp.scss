@@ -29,6 +29,10 @@
         h2{
             color: $bg-color-sec;
             margin-bottom: 1.875rem;
+            &:hover{
+                text-decoration: underline;
+            }
+            
             
         }
     }

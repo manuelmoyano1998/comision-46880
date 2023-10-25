@@ -39,7 +39,7 @@ header nav ul li a {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   font-size: 15px;
-  transition: color 2s;
+  transition: color 1s;
 }
 header nav ul li a:hover {
   color: rgb(246, 166, 38);
@@ -79,6 +79,74 @@ header nav ul li a:hover {
   padding: 10px;
   width: 100%;
   border: 3px solid black;
+}
+
+.sectionSec {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.1875rem;
+}
+.sectionSec h1 {
+  text-align: center;
+  color: rgb(246, 166, 38);
+  padding: 50px;
+  font-size: 32px;
+  text-shadow: rgb(179, 116, 22) 1px 0 10px;
+}
+.sectionSec div {
+  display: flex;
+  align-items: center;
+  gap: 3.125rem;
+  width: 90%;
+  justify-content: center;
+}
+.sectionSec div img {
+  height: 270px;
+  border-radius: 20px;
+}
+.sectionSec div img:hover {
+  transform: scale(1.05);
+}
+.sectionSec div article {
+  color: antiquewhite;
+  padding: 30px;
+  width: 500px;
+  border-top: 1px solid rgb(246, 166, 38);
+  border-bottom: 1px solid rgb(246, 166, 38);
+}
+.sectionSec div article h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  color: rgb(246, 166, 38);
+}
+.sectionSec div article h2:hover {
+  text-decoration: underline;
+}
+.sectionSec div article h4 {
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.sectionSec button, .sectionSec .section1 form select, .section1 form .sectionSec select {
+  background-color: black;
+  height: 2.1875rem;
+  width: 100px;
+  margin: 50px;
+  box-shadow: 0 0 5px rgb(246, 166, 38), 0 0 25px rgb(246, 166, 38);
+}
+.sectionSec button:hover, .sectionSec .section1 form select:hover, .section1 form .sectionSec select:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 5px rgb(246, 166, 38), 0 0 1.5625rem rgb(246, 166, 38), 0 0 3.125rem rgb(246, 166, 38), 0 0 6.25rem rgb(246, 166, 38);
+}
+.sectionSec button a, .sectionSec .section1 form select a, .section1 form .sectionSec select a {
+  color: rgb(246, 166, 38);
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.sectionSec button a:hover, .sectionSec .section1 form select a:hover, .section1 form .sectionSec select a:hover {
+  text-decoration: underline;
 }
 
 footer {
@@ -212,6 +280,9 @@ footer section div img {
 .emp div h2 {
   color: rgb(246, 166, 38);
   margin-bottom: 1.875rem;
+}
+.emp div h2:hover {
+  text-decoration: underline;
 }
 
 .invertir {
@@ -354,6 +425,13 @@ footer section div img {
     align-items: center;
     justify-content: center;
   }
+  .sectionSec div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.125rem;
+  }
   /* Nosotros */
   .containerNos {
     display: flex;
@@ -382,6 +460,12 @@ footer section div img {
   .sectionPrincipal form {
     flex-direction: column;
     height: 50%;
+  }
+  .sectionSec div img {
+    width: 80%;
+  }
+  .sectionSec div article {
+    width: 80%;
   }
   /* Inmuebles */
   .grids {
