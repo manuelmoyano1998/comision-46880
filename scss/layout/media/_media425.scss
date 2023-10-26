@@ -1,4 +1,7 @@
 @media (max-width: 426px){
+    .imgLogo h2{
+        display: none;
+    }
     .grids {
         grid-template-columns: 1fr ;
         grid-template-rows: repeat(12, 12.5rem);
