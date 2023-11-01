@@ -3,7 +3,7 @@
         display: none;
     }
     .grids {
-        grid-template-columns: 1fr ;
+        grid-template-columns: 100% ;
         grid-template-rows: repeat(12, 12.5rem);
 
     }

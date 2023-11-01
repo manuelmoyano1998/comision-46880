@@ -21,8 +21,12 @@
         }
     }
 
-    .sectionSec div{
-        @include flex(column, center, 3.125rem );
+    .sectionSec{
+        @include flex(column, center, 4.6875rem);
+        div{
+            @include flex(column, center, 3.125rem );
+        
+        }
     }
 
     /* Nosotros */

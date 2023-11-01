@@ -35,11 +35,12 @@
         display: flex;
         justify-content: space-evenly;
         height: 9.375rem;
+        width: 100%;
         input{
             padding: 10px;
             margin: 50px;
             border: 3px solid $color-principal;
-            width: 250px;
+            width: 28%;
             background-color: transparent;
             color: rgb(97, 95, 93); 
         }
@@ -47,14 +48,18 @@
             padding: 10px;
             margin: 50px;
             border: 3px solid rgb(0, 0, 0);
-            width: 150px;
+            width: 16%;
             border-radius: 50px;
             background-color: transparent;
+            &:hover{
+                background-color: $bg-principal;
+                color: $bg-color-sec;
+            }
         }
         select{
             @extend button;
             border:3px solid $color-principal;
-            width: 250px;
+            width: 28%;
             color: rgb(97, 95, 93);
             border-radius: 0px;
             }

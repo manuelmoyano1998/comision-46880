@@ -213,12 +213,13 @@ footer section div img {
   display: flex;
   justify-content: space-evenly;
   height: 9.375rem;
+  width: 100%;
 }
 .section1 form input {
   padding: 10px;
   margin: 50px;
   border: 3px solid antiquewhite;
-  width: 250px;
+  width: 28%;
   background-color: transparent;
   color: rgb(97, 95, 93);
 }
@@ -226,13 +227,17 @@ footer section div img {
   padding: 10px;
   margin: 50px;
   border: 3px solid rgb(0, 0, 0);
-  width: 150px;
+  width: 16%;
   border-radius: 50px;
   background-color: transparent;
 }
+.section1 form button:hover, .section1 form select:hover {
+  background-color: black;
+  color: rgb(246, 166, 38);
+}
 .section1 form select {
   border: 3px solid antiquewhite;
-  width: 250px;
+  width: 28%;
   color: rgb(97, 95, 93);
   border-radius: 0px;
 }
@@ -440,6 +445,13 @@ footer section div img {
   header nav #toggle:checked ~ .menu {
     height: 100%;
   }
+  .sectionSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4.6875rem;
+  }
   .sectionSec div {
     display: flex;
     flex-direction: column;
@@ -517,6 +529,7 @@ footer section div img {
     grid-column: 1/3;
   }
   .section1 h2 {
+    margin-left: 0rem;
     text-align: center;
   }
   .section1 form {
@@ -524,6 +537,15 @@ footer section div img {
     height: 50rem;
     justify-content: center;
     align-items: center;
+  }
+  .section1 form select {
+    width: 70%;
+  }
+  .section1 form button, .section1 form select {
+    width: 70%;
+  }
+  .section1 form input {
+    width: 70%;
   }
   /* Emprendimientos */
   .emp {
@@ -559,7 +581,7 @@ footer section div img {
     display: none;
   }
   .grids {
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     grid-template-rows: repeat(12, 12.5rem);
   }
   .grids section div img {
